@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 class ActionButtons extends StatelessWidget {
   final VoidCallback? onEdit;
   final VoidCallback? onShare;
-
   const ActionButtons({super.key, this.onEdit, this.onShare});
-
   @override
   Widget build(BuildContext context) {
     return Row(

@@ -5,7 +5,6 @@ import 'profile_photo.dart';
 class ProfileHeader extends StatelessWidget {
   final String name;
   final String nim;
-
   const ProfileHeader({super.key, required this.name, required this.nim});
 
   @override
